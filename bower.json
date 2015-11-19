@@ -1,0 +1,18 @@
+{
+  "name": "product-profile-cms-elements",
+  "description": "a serie of views and controllers to create a product profile with https://github.com/belgac/cms-element-builder-directive",
+  "main": "dist/product-profile-cms-elements.min.js",
+  "authors": [
+    "Hans Scheuren <hans.scheuren@bizliner.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/belgac/product-profile-cms-elements",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
