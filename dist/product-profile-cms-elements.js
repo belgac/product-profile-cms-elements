@@ -1,0 +1,7 @@
+angular.module("product-profile-cms-elements.template", []).run(["$templateCache", function($templateCache) {$templateCache.put("product-profile-cms/flag.view.html","<p><span ng-if=\"element.label\" ng-class=\"element.labelClass\">{{element.label}}: </span><span ng-class=\"\'flag-icon-\' +  element.flagCode\" class=\"flag-icon\"></span></p>");
+$templateCache.put("product-profile-cms/image.view.html","<img ng-if=\"element.imageUrl\" ng-src=\"{{element.imageUrl}}\" alt=\"\" ng-class=\"element.childClass\">");
+$templateCache.put("product-profile-cms/last-update.view.html","<p ng-if=\"element.lastUpdate\"><small><span ng-if=\"element.label\">{{element.label}}:</span> {{element.lastUpdate}}</small></p>");
+$templateCache.put("product-profile-cms/link-button.view.html","<a ng-class=\"element.childClass\" ng-href=\"{{element.url}}\" ng-attr-target=\"{{element.target}}\">\n  <i class=\"{{element.iconClass}}\"></i> {{element.label}}\n</a>");
+$templateCache.put("product-profile-cms/product-title.view.html","<h1 ng-class=\"element.childClass\">\n  <span>{{element.titleIntro}} {{element.title}}</span>\n  <span ng-if=\"element.sku\">(#{{element.sku}})</span>\n</h1>");
+$templateCache.put("product-profile-cms/technical-sheet.view.html","<div ng-class=\"element.childClass\">\n<h2>{{element.title}}</h2>\n<keyvaluetables datatoparse=\"element.techSheetData\" tables=\"element.techSheetTables\"></keyvaluetables>\n</div>");}]);
+//# sourceMappingURL=product-profile-cms-elements.js.map
